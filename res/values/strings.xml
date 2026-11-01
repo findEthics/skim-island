@@ -1,0 +1,1 @@
+<resources><string name="accessibility_description">Shows a tappable island above the status bar and handles Home and notification-shade gestures. Does not read screen content. Notification contents stay on this device and are hidden while locked.</string></resources>

@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.findethics.skim.test">
+<uses-sdk android:minSdkVersion="32" android:targetSdkVersion="36"/>
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+<application android:theme="@android:style/Theme.Material.NoActionBar" android:label="Skim Test" android:debuggable="true">
+<activity android:name=".Fixture" android:launchMode="singleTop" android:exported="true"/>
+</application>
+<instrumentation android:name=".Check" android:targetPackage="dev.findethics.skim.test"/>
+</manifest>
